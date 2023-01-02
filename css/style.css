@@ -1,0 +1,49 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/mikhail-pavstyuk-EKy2OTRPXdw-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  /* min-width: 100vw; */
+  min-height: 50vh;
+  color: rgb(241, 240, 240);
+}
+/* .banner__hero {
+  position: absolute;
+  top: 50;
+  bottom: 50;
+transform: translate(50%, 50%);
+} */
+.banner h2 {
+  font-size: 3rem;
+  line-height: 5rem;
+}
+.banner p {
+  font-size: 1.5rem;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.main > * {
+  flex: 1 1 300px;
+}
+.main .box h3 {
+  line-height: 2.7rem;
+}
+.main .box p {
+  font-size: 14px;
+  line-height: 1.5rem;
+}
+.main .box img {
+  width: 5rem;
+}
